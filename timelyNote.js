@@ -18,18 +18,15 @@ nowFileName = function () {
 		return result;
 }
 
-console.log("File name is: \t" + nowFileName());
+//console.log("File name is: \t" + nowFileName());
 
 
 path = Path('/Users/'+ $USER +'/Documents/Notes/' + nowFileName());
 
-console.log(path);
 
-doc = TextEdit.Document({text:"Created on " + nowFileName()});
+doc = TextEdit.Document({text:"Created by TimelyNote"});
 
 TextEdit.documents.push(doc);
-
-var x=1;
 
 
 doc.save({in:path});
