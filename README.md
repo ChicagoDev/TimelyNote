@@ -8,4 +8,3 @@ TimelyNote was created because I regularly use TextEdit as my scratch pad on my 
 
 TimelyNote helps by creating a blank TextEdit document, and saving it with a time-stamp by default upon creation. Thus, you can keep all your notes in one directory, indexed by time-stamp. And when you need to quickly shutdown or restart your Mac, you can just save everything in one common file-naming scheme and locate your important notes later using <code>grep</code>. 
 
-##<strong>WIN!</strong>
