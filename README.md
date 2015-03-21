@@ -21,3 +21,8 @@ Save the Automator File as TimelyNote.
 In the Automator menu choose Services > Services Preferences
 Scroll to the bottom of the list of Services shortcuts and select a shortcut for TimelyNote. I chose <code>Command + Shift + Y </code>. Be sure to disable <code>Command + Shift + Y </code> for its previous default action. 
 
+## Next Steps
+
+A Script which organizes the Notes into folder hierarchically by year and month. Sorted by day.
+Also a Script which runs <code>textutil -convert txt</code> recursively on the entire directory for better <code>grepping</code>
+
