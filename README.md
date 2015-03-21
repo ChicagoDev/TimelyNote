@@ -19,5 +19,5 @@ Drag the <code>Run JavaScript</code> action to the main workflow area.
 Paste TimelyNote.js into the code area.
 Save the Automator File as TimelyNote.
 In the Automator menu choose Services > Services Preferences
-Scroll to the bottom of the list of Services shortcuts and select a shortcut for TimelyNote. I chose <code>Command + Shift + Y <code>. Be sure to disable <code>Command + Shift + Y <code> for its previous default action. 
+Scroll to the bottom of the list of Services shortcuts and select a shortcut for TimelyNote. I chose <code>Command + Shift + Y </code>. Be sure to disable <code>Command + Shift + Y </code> for its previous default action. 
 
