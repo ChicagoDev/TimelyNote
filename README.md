@@ -12,6 +12,13 @@ TimelyNote helps by creating a blank TextEdit document, and saving it with a tim
 
 Edit the $USER variable to match your user name on your mac. To get this variable, open Terminal and type <code>echo $USER</code>.
 Create the Notes folder in your Documents folder. In Terminal, <code> mkdir ~/Documents/Notes </code>.
-Launch the script with Apple's Script Editor. 
 
-I'm still in the process in finding out how to bind the script to a global keyboard shortcut. Also, in an ideal world, I'd like to trigger the script everytime TextEdit opens.
+Open the Automator application, create a <code>New Service</code>.
+Choose service receives <code>no input</code> in <code> any application</code>.
+Drag the <code>Run JavaScript</code> action to the main workflow area.
+Paste TimelyNote.js into the code area.
+Save the Automator File as TimelyNote.
+In the Automator menu choose Services > Services Preferences
+Scroll to the bottom of the list of Services shortcuts and select a shortcut for TimelyNote. I chose <code>command + / <code>
+
+Now anytime you press <code>command + / <code>, watch the magic happen!
