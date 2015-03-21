@@ -23,6 +23,6 @@ Scroll to the bottom of the list of Services shortcuts and select a shortcut for
 
 ## Next Steps
 
-A Script which organizes the Notes into folder hierarchically by year and month. Sorted by day.
+A Script which organizes the Notes into a folder hierarchy by year and month. Sorted by day.
 Also a Script which runs <code>textutil -convert txt</code> recursively on the entire directory for better <code>grepping</code>
 
